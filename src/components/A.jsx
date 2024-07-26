@@ -11,7 +11,7 @@ export const A = () => {
 const handleClick = () => {
 
        const name = nameRef.current.value;
-       alert(name);
+       dispatch( { type: "NAME_UPDATE", payload:name } );
 }
 
   return (

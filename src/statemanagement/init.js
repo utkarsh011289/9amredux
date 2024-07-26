@@ -1,4 +1,6 @@
-export const init ={
+
+export const init = {
+
     name:"",
     location:""
 }
